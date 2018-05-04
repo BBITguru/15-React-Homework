@@ -1,0 +1,35 @@
+.gamegrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-content: center;
+  justify-content: center;
+  margin-left: 10vw;
+}
+
+h4 {
+  margin: 10px auto 0px auto;
+  max-width: 100%;
+  text-align: center;
+  color: brown; 
+}
+
+.score {
+  margin: 15px auto 0px auto;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  letter-spacing: 0.2em;
+  background-color: #DC3545;
+}
+
+.gamecontainer {
+  margin-top: 0px;
+}
+
+@media screen and (max-width:768px){
+  .gamecontainer{
+      margin-left: 0;
+  }
+}
