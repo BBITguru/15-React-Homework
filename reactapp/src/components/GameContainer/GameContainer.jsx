@@ -27,7 +27,6 @@ shuffleCards = cardArray => {
     cardArray[currentIndex] = cardArray[randomIndex];
     cardArray[randomIndex] = temporaryVal;
   }
-
   return cardArray;
 }
 
